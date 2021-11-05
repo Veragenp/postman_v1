@@ -15,6 +15,6 @@ class PostmanTest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("user id"));
+                .body("data", equalTo("user i"));
     }
 }
